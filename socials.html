@@ -3,57 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>socials</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <title>Socials</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-
-<nav>
-
-    <div class="heading">
-
-      <h4>HCI</h4>
-
-    </div>
-
-    <ul class="nav-links">
-
-      <li><a href="index.html">Biodata</a></li>
-
-      <li><a class="active" href="socials.html">Socials</a></li>
-
-      <li><a href="hobbies.html">Hobbies</a></li>
-
-      <li><a href="experience.html">Experience</a></li>
-
-    </ul>
-
-  </nav>
 <body>
-<center>
-<div class="socialpage">
-    <div class="image-box">
-        <a href="https://www.instagram.com/cindyrwang/">
-            <img src="insta.png" alt="insta"></a>
-        <div class="image-text">
-            <p>instagram</p></a>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">HCI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Biodata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="socials.html">Socials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbies.html">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html">Experience</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-    
-    <div class="image-box">
-        <a href="https://github.com/waengs">
-            <img src="github.png" alt="github"></a>
-        <div class="image-text">
-            <p>github</p>
+    </nav>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card text-center">
+                <a href="https://www.instagram.com/cindyrwang/" target="_blank">
+                    <img src="insta.png" class="card-img-top" alt="Instagram">
+                    <div class="card-body">
+                        <h5 class="card-title">Instagram</h5>
+                    </div>
+                </a>
+            </div>
         </div>
-    </div>
-    
-    <div class="image-box">
-        <a href="https://www.tiktok.com/@waengs">
-            <img src="tiktok.png" alt="tiktok"></a>
-        <div class="image-text">
-            <p>tiktok</p>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <a href="https://github.com/waengs" target="_blank">
+                    <img src="github.png" class="card-img-top" alt="GitHub">
+                    <div class="card-body">
+                        <h5 class="card-title">GitHub</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <a href="https://www.tiktok.com/@waengs" target="_blank">
+                    <img src="tiktok.png" class="card-img-top" alt="TikTok">
+                    <div class="card-body">
+                        <h5 class="card-title">TikTok</h5>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </div>
-</center>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
+</html>
